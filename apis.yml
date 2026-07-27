@@ -1,7 +1,25 @@
 aid: game-theory
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/game-theory.png
 name: Game Theory
-description: Game Theory is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Game Theory is a Bengaluru-based recreational sports and fitness membership
+  platform operating 25+ centers across the city. Its consumer mobile app offers unlimited
+  multi-sport coaching for kids and All Access adult memberships spanning 8+ sports
+  — swimming, badminton, basketball, football, pickleball, squash, and table tennis
+  — alongside pay-per-use slot booking, live game feeds, and corporate wellness programs.
+  A Techstars-backed company, Game Theory publishes no public developer API, SDK, or
+  documentation surface; this profile is maintained in the API Evangelist network as
+  a company record awaiting any future developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/game-theory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Sports
+- Fitness
+- Recreation
+- Membership
+- Sports Coaching
+- Mobile App
+- Bengaluru
+- India
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://gametheory.in/
+  url: https://www.gametheory.in/
+- type: Pricing
+  url: https://www.gametheory.in/allaccess
+- type: SignUp
+  url: https://www.gametheory.in/downloadapp
+- type: Support
+  url: https://gametheory.app.link/help
+- type: TermsOfService
+  url: https://www.gametheory.in/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.gametheory.in/privacy-policy
+- type: DomainSecurity
+  url: security/game-theory-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
